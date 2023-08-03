@@ -21,3 +21,16 @@ Domain mode in single machine
 	http://127.0.0.1:9990/
 	admin
 	Runtime->Topology
+
+	./domain.sh --host-config=host-master.xml
+	Create a management user and copy the secret value
+	Place the sicret value in the host-slave.xml
+	Add the IP address of the domain controller in the host-slave.xml
+	Start the Jboss EAP in the slave machine using host-slave.xml
+	./domain.sh --host-config=host-slave.xml
+
+
+	For example Host master is running in 192.168.169.137 in the port 9991
+	Host slave is running in local machine
+
+	./domain.sh --host-config=host-slave.xml
