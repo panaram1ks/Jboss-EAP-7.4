@@ -34,3 +34,14 @@ Domain mode in single machine
 	Host slave is running in local machine
 
 	./domain.sh --host-config=host-slave.xml
+
+
+Administration using CLI(Command Line Interface)
+
+	./jboss-cli.sh
+	deploy somename.ear or somename.jar
+	undeply somename.ear or somename.jar
+	deployment-info
+	:take-snapshot()
+	:list-snapshots()
+

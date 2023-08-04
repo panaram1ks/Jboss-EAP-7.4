@@ -1,14 +1,5 @@
 OpenJDK 64-Bit Server VM (25.382-b05) for linux-amd64 JRE (1.8.0_382-8u382-ga-1~20.04.1-b05), built on Jul 24 2023 20:18:00 by "buildd" with gcc 9.4.0
-Memory: 4k page, physical 16244224k(887792k free), swap 16638972k(16500988k free)
+Memory: 4k page, physical 16244224k(1910616k free), swap 16638972k(13628956k free)
 CommandLine flags: -XX:CompressedClassSpaceSize=260046848 -XX:GCLogFileSize=3145728 -XX:InitialHeapSize=1366294528 -XX:MaxHeapSize=1366294528 -XX:MaxMetaspaceSize=268435456 -XX:MetaspaceSize=100663296 -XX:NumberOfGCLogFiles=5 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:-TraceClassUnloading -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:+UseParallelGC 
-2023-08-03T09:14:50.117+0300: 1.275: [GC (Allocation Failure) [PSYoungGen: 334336K->19476K(389632K)] 334336K->19492K(1280000K), 0.0155338 secs] [Times: user=0.02 sys=0.01, real=0.02 secs] 
-2023-08-03T09:14:51.681+0300: 2.838: [GC (Allocation Failure) [PSYoungGen: 353812K->55292K(389632K)] 353828K->66059K(1280000K), 0.0465016 secs] [Times: user=0.10 sys=0.02, real=0.04 secs] 
-Heap
- PSYoungGen      total 389632K, used 314273K [0x00000000e4d80000, 0x0000000100000000, 0x0000000100000000)
-  eden space 334336K, 77% used [0x00000000e4d80000,0x00000000f4a69378,0x00000000f9400000)
-  from space 55296K, 99% used [0x00000000fca00000,0x00000000fffff120,0x0000000100000000)
-  to   space 55296K, 0% used [0x00000000f9400000,0x00000000f9400000,0x00000000fca00000)
- ParOldGen       total 890368K, used 10767K [0x00000000ae800000, 0x00000000e4d80000, 0x00000000e4d80000)
-  object space 890368K, 1% used [0x00000000ae800000,0x00000000af283e80,0x00000000e4d80000)
- Metaspace       used 78636K, capacity 87412K, committed 87680K, reserved 1124352K
-  class space    used 10179K, capacity 12650K, committed 12672K, reserved 1048576K
+2023-08-04T12:24:50.096+0300: 2.050: [GC (Allocation Failure) [PSYoungGen: 334336K->34471K(389632K)] 334336K->34495K(1280000K), 0.0358260 secs] [Times: user=0.04 sys=0.02, real=0.04 secs] 
+2023-08-04T12:31:00.514+0300: 372.467: [GC (Allocation Failure) [PSYoungGen: 368807K->55266K(389632K)] 368831K->55558K(1280000K), 0.1246506 secs] [Times: user=0.16 sys=0.06, real=0.13 secs] 
